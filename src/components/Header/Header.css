@@ -26,11 +26,29 @@ header .cta .course-name {
     color: #fff;
     position: relative;
 }
-header .cta .course-name::after{
+header .cta .course-name::after {
+    content: "";
     position: absolute;
-    width: 60ox;
+    width: 60px;
     height: 4px;
     background-color: var(--red-color);
     left: 0;
     bottom: -10px;
+}
+
+header .cta h1 {
+    font-family: "Alegreya";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color : #fff;
+}
+
+header .cta .demo-btn {
+    border-radius: 10px;
+    background: var(--red-color);
+    color: #fff;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
 }
